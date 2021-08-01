@@ -90,7 +90,7 @@
     "domainName": "contoso.com",
     "timeZone": "UTC",
     "networkSettings": {
-      "virtualNetworkAddressPrefix": "10.2.2.0/16",
+      "virtualNetworkAddressPrefix": "10.2.0.0/16",
       "subnetAddressPrefix": "10.2.2.0/24",
       "virtualMachinesIPAddress": "10.2.2.",
       "subnetRef": "[resourceId('Microsoft.Network/virtualNetworks/subnets', variables('virtualNetworkName'), 'default')]",
